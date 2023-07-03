@@ -60,7 +60,7 @@ The following functions are available:
    - `YaxisLimit` and `color` are optional parameters.
 
 ## Example usage and graphs
-```
+```py
 import collatz as collatz 
 
 # Print the sequence for the number 6
@@ -87,7 +87,7 @@ collatz.Startvalue_MaxRG(2, 1000, 1000, "blue")
 ![4th](https://user-images.githubusercontent.com/117145297/227715230-be4cf339-4d7d-4a6e-9b0b-696d085e9dea.png)
 
 > You can even create `Custom` graphs by using the matplotlib.pyplot
-```
+```py
 import collatz as collatz 
 # X and Y values as a list 
 Xval = [1,5,12,66]
