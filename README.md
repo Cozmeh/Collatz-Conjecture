@@ -39,7 +39,7 @@ and
 less than 100 billion is 75128138247, which has 1228 steps.
 ```
 ## Installation
-To use this module, simply copy and paste the `"collatz.py"` file into the `"site-packages"` directory of your Python installation. On Windows, this directory is usually located at `"C:\PythonXX\Lib\site-packages"` (replace "XX" with your Python version).
+To use this module, simply copy and paste the `"collatz.py"` file into the `"site-packages"` directory of your Python installation. On Windows, this directory is usually located at `"C:\PythonXX\Lib\site-packages"` (replace "XX" with your Python version). or use it in the same directory
 
 ## How to use the module ?
 To use the module, simply import it by typing `import collatz`. 
