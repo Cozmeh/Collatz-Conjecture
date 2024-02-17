@@ -1,6 +1,7 @@
 # this takes the max value of given number(N) and then the max value(taken from previous run) is fed back 
 # into the algorithm as (N) and so on ..
 
+
 count = 0
 def maxAsN(MaxNum):
     steps = 0
