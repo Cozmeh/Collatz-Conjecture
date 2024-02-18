@@ -1,16 +1,16 @@
-import turtle , random
+import turtle , random 
 import CollatzChecker as cc
+
 collatz = cc.CollatzChecker()
 t = turtle.Turtle()
 screen = turtle.Screen()
 
-screen.bgcolor("black")
-width = 800
-height = 600
-screen.setup(width=width, height=height)
+ScreenWidth = 800
+ScreenHeight = 600
 
-startX = -width / 2
-startY = -height / 2
+Number = 1000
+startX = 0
+startY = -ScreenHeight / 2
 turtlesize = 0.5
 lineColor = "white"
 Even_Turn = 10
@@ -18,9 +18,8 @@ Odd_Turn = 20
 forward = 5
 drawDirection = 90
 
-Number = 1000
-
-
+screen.bgcolor("black")
+screen.setup(width=ScreenWidth, height=ScreenHeight)
 # Function to check if a number is even or odd
 def isEven(num):
     return num % 2 == 0
@@ -52,4 +51,6 @@ for num in range(2,Number):
 
     t.penup()
 
+# canvas = turtle.getcanvas()
+# canvas.postscript(file="Images/CollatzTree.eps")
 turtle.done()
